@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class InvadersManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string type;
+    public int hp;
+    public int damage;
 }
