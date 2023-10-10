@@ -39,7 +39,6 @@ public class GameManager : MonoBehaviour
         currentLevel = 1;
         startButton.SetActive(false);
         levelContainer.SetActive(true);
-        levelTitle.SetActive(true);
         levelManager.ChoosenLevel(currentLevel);
     }
 }
